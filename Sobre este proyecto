@@ -1,0 +1,39 @@
+Datos del Estudiante:
+
+-Oscar David Mota Reyes.
+-Nº 13 en el orden de lista.
+-Alumno de 5to D-2 informatica.
+
+
+Descrpcion del programa:
+
+Este programa se encarga de capturar los datos de un empleado y luego almacenarlos
+en un archivo tipo "txt".y luego tambien puede buscar dicho archivo guardado.
+
+Datos de entrada:
+
+-ID
+-Nombre
+-Apellido
+-Telefono
+-Email
+-Cargo
+-Salario
+-Fecha de ingreso
+-Genero
+-Direccion
+
+
+Datos que procesa:
+
+-La validacion de cada campo a rellenar
+-Abrir el explorador de archivos
+
+
+Datos de salida:
+
+-Mensajes.
+-Alertas.
+
+
+Capturas de pantalla
