@@ -22,7 +22,7 @@
 	<li>Estudiante apasionado por la informatica.</li>
 	<li>Buen compañero.</li>
 	<li>Gracioso y Carismatico.</li>
-	<li>Personal website https://sites.google.com/d/1CeehMk1x5OMFw671FTjhfjKdHfxeRoWb/p/1-ar77RgiSs85_VPwWodoUOmO35gS4ZNE</li>
+	<li>Personal website <a herf="https://sites.google.com/view/portafoliodeoscar5tod2/p%C3%A1gina-principal?authuser=0"></a></li>
 </ul>
  
   
