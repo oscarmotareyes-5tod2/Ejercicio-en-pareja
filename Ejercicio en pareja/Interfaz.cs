@@ -155,6 +155,7 @@ namespace Ejercicio_en_pareja
                           "Genero".PadRight(10)
                         );
 
+
                         string linea =
                         txbID.Text.PadRight(5) +
                         txbNombre.Text.PadRight(15) +
