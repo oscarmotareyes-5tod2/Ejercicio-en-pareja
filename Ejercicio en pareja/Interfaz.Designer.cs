@@ -54,11 +54,14 @@
             bCerrar = new Button();
             bAbril = new Button();
             openFileDialog1 = new OpenFileDialog();
+            dgvEmpleados = new DataGridView();
             gbFormulario.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvEmpleados).BeginInit();
             SuspendLayout();
             // 
             // gbFormulario
             // 
+            gbFormulario.BackColor = SystemColors.ButtonHighlight;
             gbFormulario.Controls.Add(cmbGenero);
             gbFormulario.Controls.Add(bLimpiar);
             gbFormulario.Controls.Add(bGuardar);
@@ -81,9 +84,11 @@
             gbFormulario.Controls.Add(LNombre);
             gbFormulario.Controls.Add(txbID);
             gbFormulario.Controls.Add(LID);
-            gbFormulario.Location = new Point(139, 12);
+            gbFormulario.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            gbFormulario.ForeColor = SystemColors.ActiveCaptionText;
+            gbFormulario.Location = new Point(202, 31);
             gbFormulario.Name = "gbFormulario";
-            gbFormulario.Size = new Size(355, 381);
+            gbFormulario.Size = new Size(314, 366);
             gbFormulario.TabIndex = 0;
             gbFormulario.TabStop = false;
             gbFormulario.Text = "Formulario";
@@ -91,14 +96,15 @@
             // cmbGenero
             // 
             cmbGenero.FormattingEnabled = true;
-            cmbGenero.Location = new Point(134, 301);
+            cmbGenero.Location = new Point(107, 299);
             cmbGenero.Name = "cmbGenero";
             cmbGenero.Size = new Size(121, 23);
             cmbGenero.TabIndex = 22;
             // 
             // bLimpiar
             // 
-            bLimpiar.Location = new Point(220, 342);
+            bLimpiar.ForeColor = SystemColors.ButtonHighlight;
+            bLimpiar.Location = new Point(193, 340);
             bLimpiar.Name = "bLimpiar";
             bLimpiar.Size = new Size(75, 23);
             bLimpiar.TabIndex = 21;
@@ -108,7 +114,8 @@
             // 
             // bGuardar
             // 
-            bGuardar.Location = new Point(74, 342);
+            bGuardar.ForeColor = SystemColors.ButtonHighlight;
+            bGuardar.Location = new Point(47, 340);
             bGuardar.Name = "bGuardar";
             bGuardar.Size = new Size(75, 23);
             bGuardar.TabIndex = 1;
@@ -118,21 +125,21 @@
             // 
             // dtpFecha
             // 
-            dtpFecha.Location = new Point(134, 272);
+            dtpFecha.Location = new Point(107, 270);
             dtpFecha.Name = "dtpFecha";
             dtpFecha.Size = new Size(200, 23);
             dtpFecha.TabIndex = 20;
             // 
             // txbSalario
             // 
-            txbSalario.Location = new Point(134, 243);
+            txbSalario.Location = new Point(107, 241);
             txbSalario.Name = "txbSalario";
             txbSalario.Size = new Size(100, 23);
             txbSalario.TabIndex = 18;
             // 
             // txbCargo
             // 
-            txbCargo.Location = new Point(134, 217);
+            txbCargo.Location = new Point(107, 215);
             txbCargo.Name = "txbCargo";
             txbCargo.Size = new Size(100, 23);
             txbCargo.TabIndex = 17;
@@ -140,35 +147,35 @@
             // 
             // txbEmail
             // 
-            txbEmail.Location = new Point(134, 188);
+            txbEmail.Location = new Point(107, 186);
             txbEmail.Name = "txbEmail";
             txbEmail.Size = new Size(100, 23);
             txbEmail.TabIndex = 16;
             // 
             // txbTelefono
             // 
-            txbTelefono.Location = new Point(134, 158);
+            txbTelefono.Location = new Point(107, 156);
             txbTelefono.Name = "txbTelefono";
             txbTelefono.Size = new Size(100, 23);
             txbTelefono.TabIndex = 15;
             // 
             // txbDireccion
             // 
-            txbDireccion.Location = new Point(134, 129);
+            txbDireccion.Location = new Point(107, 127);
             txbDireccion.Name = "txbDireccion";
             txbDireccion.Size = new Size(100, 23);
             txbDireccion.TabIndex = 14;
             // 
             // txbApellido
             // 
-            txbApellido.Location = new Point(134, 98);
+            txbApellido.Location = new Point(107, 96);
             txbApellido.Name = "txbApellido";
             txbApellido.Size = new Size(100, 23);
             txbApellido.TabIndex = 13;
             // 
             // txbNombre
             // 
-            txbNombre.Location = new Point(134, 67);
+            txbNombre.Location = new Point(107, 65);
             txbNombre.Name = "txbNombre";
             txbNombre.Size = new Size(100, 23);
             txbNombre.TabIndex = 12;
@@ -176,7 +183,7 @@
             // LGenero
             // 
             LGenero.AutoSize = true;
-            LGenero.Location = new Point(32, 300);
+            LGenero.Location = new Point(5, 298);
             LGenero.Name = "LGenero";
             LGenero.Size = new Size(45, 15);
             LGenero.TabIndex = 11;
@@ -185,7 +192,7 @@
             // LFecha
             // 
             LFecha.AutoSize = true;
-            LFecha.Location = new Point(32, 275);
+            LFecha.Location = new Point(5, 273);
             LFecha.Name = "LFecha";
             LFecha.Size = new Size(96, 15);
             LFecha.TabIndex = 10;
@@ -194,7 +201,7 @@
             // Lcargo
             // 
             Lcargo.AutoSize = true;
-            Lcargo.Location = new Point(32, 220);
+            Lcargo.Location = new Point(5, 218);
             Lcargo.Name = "Lcargo";
             Lcargo.Size = new Size(39, 15);
             Lcargo.TabIndex = 9;
@@ -203,7 +210,7 @@
             // LEmail
             // 
             LEmail.AutoSize = true;
-            LEmail.Location = new Point(32, 191);
+            LEmail.Location = new Point(5, 189);
             LEmail.Name = "LEmail";
             LEmail.Size = new Size(36, 15);
             LEmail.TabIndex = 8;
@@ -212,7 +219,7 @@
             // LTelefono
             // 
             LTelefono.AutoSize = true;
-            LTelefono.Location = new Point(32, 161);
+            LTelefono.Location = new Point(5, 159);
             LTelefono.Name = "LTelefono";
             LTelefono.Size = new Size(53, 15);
             LTelefono.TabIndex = 7;
@@ -221,7 +228,7 @@
             // LSalario
             // 
             LSalario.AutoSize = true;
-            LSalario.Location = new Point(32, 246);
+            LSalario.Location = new Point(5, 244);
             LSalario.Name = "LSalario";
             LSalario.Size = new Size(42, 15);
             LSalario.TabIndex = 6;
@@ -230,7 +237,7 @@
             // LDireccion
             // 
             LDireccion.AutoSize = true;
-            LDireccion.Location = new Point(32, 132);
+            LDireccion.Location = new Point(5, 130);
             LDireccion.Name = "LDireccion";
             LDireccion.Size = new Size(57, 15);
             LDireccion.TabIndex = 5;
@@ -239,7 +246,7 @@
             // LApellido
             // 
             LApellido.AutoSize = true;
-            LApellido.Location = new Point(32, 101);
+            LApellido.Location = new Point(5, 99);
             LApellido.Name = "LApellido";
             LApellido.Size = new Size(51, 15);
             LApellido.TabIndex = 4;
@@ -248,7 +255,7 @@
             // LNombre
             // 
             LNombre.AutoSize = true;
-            LNombre.Location = new Point(32, 70);
+            LNombre.Location = new Point(5, 68);
             LNombre.Name = "LNombre";
             LNombre.Size = new Size(51, 15);
             LNombre.TabIndex = 3;
@@ -256,16 +263,16 @@
             // 
             // txbID
             // 
-            txbID.Location = new Point(134, 35);
+            txbID.Location = new Point(107, 33);
             txbID.Name = "txbID";
             txbID.Size = new Size(100, 23);
             txbID.TabIndex = 23;
-            txbID.KeyPress += this.txbID_KeyPress;
+            txbID.KeyPress += txbID_KeyPress;
             // 
             // LID
             // 
             LID.AutoSize = true;
-            LID.Location = new Point(32, 38);
+            LID.Location = new Point(5, 36);
             LID.Name = "LID";
             LID.Size = new Size(18, 15);
             LID.TabIndex = 1;
@@ -274,8 +281,8 @@
             // bCerrar
             // 
             bCerrar.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            bCerrar.ForeColor = SystemColors.ActiveCaptionText;
-            bCerrar.Location = new Point(695, 401);
+            bCerrar.ForeColor = SystemColors.ButtonHighlight;
+            bCerrar.Location = new Point(697, 415);
             bCerrar.Name = "bCerrar";
             bCerrar.Size = new Size(75, 23);
             bCerrar.TabIndex = 22;
@@ -285,22 +292,35 @@
             // 
             // bAbril
             // 
-            bAbril.Location = new Point(609, 200);
+            bAbril.BackColor = SystemColors.ButtonHighlight;
+            bAbril.Location = new Point(558, 185);
             bAbril.Name = "bAbril";
             bAbril.Size = new Size(123, 31);
             bAbril.TabIndex = 0;
             bAbril.Text = "Buscar Archivo";
+            bAbril.UseVisualStyleBackColor = false;
             bAbril.Click += bAbrir_Click;
             // 
             // openFileDialog1
             // 
             openFileDialog1.FileName = "openFileDialog1";
             // 
+            // dgvEmpleados
+            // 
+            dgvEmpleados.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvEmpleados.Location = new Point(129, 415);
+            dgvEmpleados.Name = "dgvEmpleados";
+            dgvEmpleados.Size = new Size(468, 141);
+            dgvEmpleados.TabIndex = 23;
+            dgvEmpleados.Visible = false;
+            // 
             // Interfaz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveBorder;
             ClientSize = new Size(800, 450);
+            Controls.Add(dgvEmpleados);
             Controls.Add(bAbril);
             Controls.Add(bCerrar);
             Controls.Add(gbFormulario);
@@ -309,6 +329,7 @@
             Load += Form1_Load;
             gbFormulario.ResumeLayout(false);
             gbFormulario.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvEmpleados).EndInit();
             ResumeLayout(false);
         }
 
@@ -340,5 +361,6 @@
         private ComboBox cmbGenero;
         private Button bAbril;
         private OpenFileDialog openFileDialog1;
+        private DataGridView dgvEmpleados;
     }
 }

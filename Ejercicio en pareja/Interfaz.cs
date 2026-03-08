@@ -22,7 +22,19 @@ namespace Ejercicio_en_pareja
 
             cmbGenero.Items.Add("Masculino");
             cmbGenero.Items.Add("Femenino");
-           
+
+            dgvEmpleados.ColumnCount = 10;
+            dgvEmpleados.Columns[0].Name = "ID";
+            dgvEmpleados.Columns[1].Name = "Nombre";
+            dgvEmpleados.Columns[2].Name = "Apellidos";
+            dgvEmpleados.Columns[3].Name = "Dirección";
+            dgvEmpleados.Columns[4].Name = "Teléfono";
+            dgvEmpleados.Columns[5].Name = "Email";
+            dgvEmpleados.Columns[6].Name = "Cargo";
+            dgvEmpleados.Columns[7].Name = "Salario";
+            dgvEmpleados.Columns[8].Name = "Fecha Ingreso";
+            dgvEmpleados.Columns[9].Name = "Género";
+
         }
 
         private void bCerrar_Click(object sender, EventArgs e)
@@ -73,7 +85,7 @@ namespace Ejercicio_en_pareja
             return decimal.TryParse(salario, out decimal s) && s > 0;
         }
 
-
+        
         private bool CamposVacios()
         {
             foreach (Control c in this.gbFormulario.Controls)
@@ -130,17 +142,33 @@ namespace Ejercicio_en_pareja
                 {
                     using (StreamWriter sw = new StreamWriter(guardar.FileName))
                     {
-                      
-                        string[] encabezados = { "ID", "Nombre", "Apellidos", "Dirección", "Teléfono", "Email", "Cargo", "Salario", "Fecha Ingreso", "Género" };
-                        sw.WriteLine("|" + string.Join(" | ", encabezados) + " |");
-                        sw.WriteLine("|" + string.Join("|", new string[encabezados.Length].Select(s => "-----")) + "|");
+                        sw.WriteLine(
+                          "ID".PadRight(5) +
+                          "Nombre".PadRight(15) +
+                          "Apellidos".PadRight(15) +
+                          "Direccion".PadRight(20) +
+                          "Telefono".PadRight(15) +
+                          "Email".PadRight(25) +
+                          "Cargo".PadRight(15) +
+                          "Salario".PadRight(10) +
+                          "Fecha".PadRight(20) +
+                          "Genero".PadRight(10)
+                        );
 
-                        
-                        string[] valores = {
-                        txbID.Text, txbNombre.Text, txbApellido.Text, txbDireccion.Text, txbTelefono.Text,
-                        txbEmail.Text, txbCargo.Text, txbSalario.Text, dtpFecha.Text, cmbGenero.SelectedItem.ToString()
-    };
-                        sw.WriteLine("|" + string.Join("|", valores) + "|");
+                        string linea =
+                        txbID.Text.PadRight(5) +
+                        txbNombre.Text.PadRight(15) +
+                        txbApellido.Text.PadRight(15) +
+                        txbDireccion.Text.PadRight(20) +
+                        txbTelefono.Text.PadRight(15) +
+                        txbEmail.Text.PadRight(25) +
+                        txbCargo.Text.PadRight(15) +
+                        txbSalario.Text.PadRight(10) +
+                        dtpFecha.Text.PadRight(20) +
+                        cmbGenero.SelectedItem.ToString().PadRight(10);
+
+                        sw.WriteLine(linea);
+
                     }
 
 
@@ -194,7 +222,7 @@ namespace Ejercicio_en_pareja
                     string contenido = File.ReadAllText(abrir.FileName);
 
                     
-                    MessageBox.Show(contenido, "Contenido del archivo");
+                    MessageBox.Show(contenido, $"Contenido del archivo");
 
                     
                 }
@@ -208,7 +236,3 @@ namespace Ejercicio_en_pareja
 
     }
 }
-
-    
-
-
