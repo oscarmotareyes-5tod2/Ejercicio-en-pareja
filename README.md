@@ -1,129 +1,62 @@
 
-<h1 align="center"><b>Bienbenidos a mi Portafolio </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-<!--  -->A
-<p align="center">
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Time+New+Roman&color=cyan&size=25&center=true&vCenter=true&width=600&height=100&lines=Assalamu+O+Alaikum+Warahmatullah..&hearts;++;Self-taught+Front-End+Developer,;Computer+Science+Student,;CTF+Newbie,;Active+Learner/Researcher,;Love+to+learn+new+stuffs..<3"></a>
-</p>
-
-
-<br>
-
-
-
-	
- **Sobre mi😊:**
-
-<picture> <img align="right" src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/Right_Side.gif" width = 250px></picture>
-
-<br>
-!Hola¡ Me llamo Oscar David Mota Reyes, Naci el 1 de agosto del año 2009 en SPM de Republica Dominicana. Desde muy pequeño he sido un chico bastante curioso, lo que me ha llevado a tener mucho conocimiento aunque tambien soy muy vago, me gusta la tecnologia, los animales, los vehiculos y sobre todo la buena comida.
-<br></br>
+<h1 align="center"><b>Bienvenidos a este Portafolio</b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<p>Este es un sistema en el cual se le solicitan datos a los empleados y se validan estos mismo. Luego los guarda en un archivo de texto(.text) y tambien se puede abrir cualquiel archivo ya guardado de tipo texto(.text).
+<h3>Datos del estudiante:<h3/>
 <ul>
-	<li>Estudiante apasionado por la informatica.</li>
-	<li>Buen compañero.</li>
-	<li>Gracioso y Carismatico.</li>
-	<li>Personal website <a herf="https://sites.google.com/view/portafoliodeoscar5tod2/p%C3%A1gina-principal?authuser=0"></a></li>
+  <li>Oscar David Mota Reyes</li>
+  <li>#13 de la lista</li>
+  <li>5to D-2</li>
 </ul>
- 
+<br>
+  <h3>Datos de entrada del sistema:</h3>
+<ul>
+  <li>ID</li>
+  <li>Nombres</li>
+  <li>Apellido</li>
+  <li>sexo</li>
+  <li>Numeros</li>
+  <li>Direcciones</li>
+  <li>Correos</li>
+  <li>cargo</li>
+  <li>Salario</li>
+  <li>Fecha de emision</li>
+</ul>
+<br>
+  <h3>Datos de salida del sistema:</h3>
+<ul>
+  <li>Mensajes</li>
+</ul>
+<br>
+<h3>Anexos:</h3>
   
-
-<br><br>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
+<h4>-Inicio</h4>
+<img src="imgs/inicio.png" width= 400px>
 <br>
-
-<p align="center">
-
-- **Languages**:
-    
-    <img width="85px" height="85px" alt="image" src="https://github.com/user-attachments/assets/524a75fa-9f34-4203-a2dc-bf7dd694ef69" />
-<br>   
-    
-- **Front-End Development**:
-
-   ![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-   ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-   
-
+<h4>-Validaciones:</h4>
+<img src="imgs/validacionc.png" width= 400px>
+<img src="imgs/validacionn.png" width= 400px>
+<img src="imgs/validacionco.png" width= 400px> 
 <br>
+<h4>-Formulario de Categoria:</h4>
+<img src="imgs/categoria.png" width= 400px>
+<img src="imgs/guardarcate.png" width= 400px>
+<img src="imgs/actucate.png" width= 400px>
+<img src="imgs/elicate.png" width= 400px>
 <br>
-
-- **Softwares and Tools**:
-
-    ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-    ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-    ![Google](https://img.shields.io/badge/google-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)
-    ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-    
+<h4>-Formulario de Facturacion:</h4>
+<img src="imgs/facturacion.png" width= 400px>
 <br>
-</p>
-
+<h4>-Formulario de Ventas:</h4>
+<img src="imgs/venta.png" width= 400px>
+<img src="imgs/guarventa.png" width= 400px>
+<img src="imgs/factura.png" width= 400px>
 <br>
+<h4>-Formulario de Productos::</h4>
+<img src="imgs/producto.png" width= 400px>
+<img src="imgs/guarpro.png" width= 400px>
+<img src="imgs/actupro.png" width= 400px>
+<img src="imgs/elipro.png" width= 400px>
 <br>
-
------
-
-<br>
-
-
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Github Stats </b>
-<br>
-
-<div align="center">
-
-<a href="https://github.com/0xabdulkhalid/">
- 
-
-</a>
-</div>
-
-<br>
-<br>
-<br>
-
------
-
-<br>
-<br>
-
-## <b> Let's Connect..!</b><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
-<br>
-<div align='left'>
-
-<ul>
-
-
-
-<br>
-
-<li>
-  <h4>oscarmotareyes5tod2@gmail.com</h4>
-</li>
-
-<br>
-
-<li>
-  <a href="https://www.instagram.com/oki_mr_01/" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-         alt="Instagram"
-         width="40"
-         style="border-radius: 50%;">
-  </a>
-</li>
-
-	
-</ul>
-</div>
-
-<br>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<br>
-<br>
-<br>
-
-<div align='center'>
 
 ## <b>Gracias por visitar este portafolio</b>
 
