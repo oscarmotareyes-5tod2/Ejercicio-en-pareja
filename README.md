@@ -25,6 +25,7 @@
   <h3>Datos de salida del sistema:</h3>
 <ul>
   <li>Mensajes</li>
+  <li>Archivos de texto</li>
 </ul>
 <br>
 <h3>Anexos:</h3>
@@ -33,30 +34,29 @@
 <img src="imgs/inicio.png" width= 400px>
 <br>
 <h4>-Validaciones:</h4>
-<img src="imgs/validacionc.png" width= 400px>
+<img src="imgs/Validacionc.png" width= 400px>
 <img src="imgs/validacionn.png" width= 400px>
 <img src="imgs/validacionco.png" width= 400px> 
+<img src="imgs/salario.png" width= 400px> 
+
 <br>
-<h4>-Formulario de Categoria:</h4>
-<img src="imgs/categoria.png" width= 400px>
-<img src="imgs/guardarcate.png" width= 400px>
-<img src="imgs/actucate.png" width= 400px>
-<img src="imgs/elicate.png" width= 400px>
+<h4>-Al hacer click en el boton guardar:</h4>
+<img src="imgs/paraguardar.png" width= 400px>
+<img src="imgs/guardado.png" width= 400px>
 <br>
-<h4>-Formulario de Facturacion:</h4>
-<img src="imgs/facturacion.png" width= 400px>
+<h4>-Al hacer click en el boton buscar:</h4>
+<img src="imgs/buscar.png" width= 400px>
 <br>
-<h4>-Formulario de Ventas:</h4>
-<img src="imgs/venta.png" width= 400px>
-<img src="imgs/guarventa.png" width= 400px>
-<img src="imgs/factura.png" width= 400px>
+<h4>-Cuando habres el archivo:</h4>
+<img src="imgs/archivoabierto.png" width= 400px>
 <br>
-<h4>-Formulario de Productos::</h4>
-<img src="imgs/producto.png" width= 400px>
-<img src="imgs/guarpro.png" width= 400px>
-<img src="imgs/actupro.png" width= 400px>
-<img src="imgs/elipro.png" width= 400px>
+<h4>-Como se guarda en el bloc de notas:</h4>
+<img src="imgs/comoseguarda.png" width= 400px>
 <br>
+<h4>-Al hacer click en el boton salir:</h4>
+<img src="imgs/parasalir.png" width= 400px>
+<br>
+
 
 ## <b>Gracias por visitar este portafolio</b>
 
